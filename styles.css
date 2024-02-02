@@ -1,0 +1,56 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    background-image: url('assets/skater.girl.jpg');
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+li {
+    margin: 10px;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    color:coral;
+    padding: 20px;
+}
+
+.content img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.link .nav__btn {
+    padding: 0.5rem 2 rem;
+    color: var(--white) !important;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+
+}
