@@ -104,9 +104,16 @@ input[type="email"]{
 footer{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 1rem;
-    padding: 50rem 45rem;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    padding: 1rem 0;
     display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align:center;
+
 }
 
 .bt{
